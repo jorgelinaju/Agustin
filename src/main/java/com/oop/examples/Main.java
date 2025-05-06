@@ -62,6 +62,10 @@ public class Main {
 
     // Using Dog-specific methods
     dog.fetch();
+
+    Bird bird = new Bird("Piolín", 1, "Canario");
+    bird.makeSound();
+    bird.fly();
   }
 
   private static void runPolymorphismExample() {
