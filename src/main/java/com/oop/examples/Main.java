@@ -10,6 +10,7 @@ import com.oop.examples.inheritance.Dog;
 import com.oop.examples.shared.Fotografiable;
 import com.oop.examples.inheritance.Animal;
 import com.oop.examples.inheritance.Cat;
+import com.oop.examples.inheritance.Bird;
 
 public class Main {
   public static void main(String[] args) {
@@ -64,7 +65,9 @@ public class Main {
     dog.fetch();
 
     Bird bird = new Bird("Piolín", 1, "Canario");
+
     bird.makeSound();
+
     bird.fly();
   }
 
